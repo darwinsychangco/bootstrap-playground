@@ -24,7 +24,7 @@ body {
 }
 
 #pricing {
-  margin: 50px 50px;
+  padding: 100px;
 }
 
 .container-fluid {
@@ -103,4 +103,8 @@ p {
 
 .card {
   min-width: 18rem;
+}
+
+.pricing-col {
+  padding: 3% 2%;
 }
