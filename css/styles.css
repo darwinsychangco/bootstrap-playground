@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
@@ -39,14 +40,21 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-/* Title Section */
-#title {
+/* Sections */
+.colored-section {
   background-color: #ff4c68;
   color: #fff;
 }
 
+.white-section {
+  background-color: #fff;
+}
+
+/* Title Section */
+
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Title Image */
@@ -58,7 +66,6 @@ p {
 }
 
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -68,7 +75,6 @@ p {
 
 .feature-box {
   padding: 5%;
-  text-align: center;
 }
 
 .feature-icon {
@@ -78,12 +84,6 @@ p {
 
 .feature-icon:hover {
   color: pink;
-}
-
-#testimonials {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: center;
 }
 
 .testimonial-h2 {
@@ -98,9 +98,7 @@ p {
 }
 
 #press {
-  background-color: #ff4c68;
   padding-bottom: 3%;
-  text-align: center;
 }
 
 .press-logo {
@@ -128,11 +126,6 @@ p {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  text-align: center;
-}
-
-#footer {
-  text-align: center;
 }
 
 .footer-link {
@@ -146,7 +139,7 @@ p {
 }
 
 @media (max-width: 1028px) {
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
 
